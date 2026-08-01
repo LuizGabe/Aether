@@ -1,2 +1,20 @@
 # Aether-finance-tracker
-Aether is a self-hosted personal finance tracking system that uses artificial intelligence to automatically categorize expenses, provide natural language search across transaction history, and streamline your money management.
+
+Projeto base em **Java 21 + Spring Boot** com ORM via **Spring Data JPA** e migrações **Flyway** para o schema Pluggy de finanças pessoais.
+
+## Executar localmente
+
+```bash
+mvn spring-boot:run
+```
+
+Variáveis principais:
+
+- `DB_URL` (default: `jdbc:postgresql://localhost:5432/aether`)
+- `DB_USERNAME` (default: `postgres`)
+- `DB_PASSWORD` (default: `postgres`)
+
+## Workflows
+
+- **Development CI** (`.github/workflows/development.yml`): roda testes em PR/push para `dev` e `main` com Java 21.
+- **Deploy** (`.github/workflows/deploy.yml`): em push para `main`, builda o app e publica imagem no GHCR.
