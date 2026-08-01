@@ -18,3 +18,15 @@ Variáveis principais:
 
 - **Development CI** (`.github/workflows/development.yml`): roda testes em PR/push para `dev` e `main` com Java 21.
 - **Deploy** (`.github/workflows/deploy.yml`): em push para `main`, builda o app e publica imagem no GHCR.
+
+
+## Executar com Docker Compose (dev)
+
+```bash
+docker compose up --build
+```
+
+Serviços disponíveis:
+
+- App: `http://localhost:8080`
+- PostgreSQL: `localhost:5432` (db `aether`, usuário `postgres`, senha `postgres`)
