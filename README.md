@@ -16,7 +16,7 @@ Variáveis principais:
 
 ## Workflows
 
-- **Development CI** (`.github/workflows/development.yml`): roda testes em PR/push para `dev` e `main` com Java 21.
+- **Development CI** (`.github/workflows/development.yml`): roda testes em PR/push para `dev` e `main` com Java 17.
 - **Deploy** (`.github/workflows/deploy.yml`): em push para `main`, builda o app e publica imagem no GHCR.
 
 
