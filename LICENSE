@@ -1,0 +1,70 @@
+AETHER PERSONAL USE LICENSE 1.0
+Copyright (c) 2026 LuizGabe. Todos os direitos reservados.
+
+1. Titularidade e alcance
+
+Esta licença rege apenas o código, a documentação e os materiais originais do
+Aether cujos titulares os disponibilizem sob estes termos. A disponibilização
+do código não transfere sua propriedade intelectual, marcas, direitos autorais
+ou quaisquer direitos não expressamente concedidos.
+
+2. Permissão de uso pessoal
+
+É concedida a pessoas físicas uma autorização gratuita, limitada, não exclusiva
+e intransferível para executar o Aether exclusivamente para fins pessoais,
+privados e não comerciais. Isso inclui organizar as próprias finanças, estudar
+o código, compilar o programa e realizar modificações para esse mesmo uso.
+Cópias de segurança e a instalação em dispositivos pessoais são permitidas.
+Avisos de autoria e esta licença devem ser preservados nas cópias.
+
+3. Uso empresarial, profissional e comercial
+
+Não é concedida autorização para usar o Aether em nome de, para benefício de
+ou dentro das atividades de empresas ou outras organizações, nem em atividade
+profissional, prestação de serviços, gestão de clientes, oferta SaaS, produto
+comercial ou geração de receita, ainda que o acesso seja gratuito.
+Esses usos exigem autorização específica e prévia, por escrito, do titular.
+A ausência de cobrança pelo programa não transforma uso empresarial em pessoal.
+
+4. Distribuição e direitos reservados
+
+Sem autorização específica por escrito, não é permitido vender, sublicenciar,
+relicenciar, oferecer o software como serviço ou distribuir publicamente cópias
+binárias ou versões modificadas do Aether. É permitido compartilhar links para
+os canais oficiais de distribuição. A consulta e os forks realizados dentro de
+uma plataforma de hospedagem continuam sujeitos aos direitos que os termos
+dessa plataforma necessariamente concedam; isso não amplia a permissão de uso
+empresarial, profissional ou comercial definida nesta licença.
+Não há concessão de licença sobre nomes, marcas ou identidade visual de terceiros.
+
+5. Componentes de terceiros
+
+Bibliotecas, runtimes, fontes, logotipos e outros componentes de terceiros
+permanecem sujeitos às suas próprias licenças e avisos. Esta licença não limita
+os direitos que essas licenças concedam, inclusive direitos de obter código,
+substituir bibliotecas, relincar ou analisar alterações quando aplicáveis.
+Consulte THIRD_PARTY_NOTICES.md e os avisos incluídos nos componentes distribuídos.
+
+6. Contribuições
+
+O envio de uma contribuição autoriza sua distribuição nos termos desta licença,
+sem transferência automática dos direitos autorais do contribuinte. Outros
+acordos específicos podem ser celebrados entre os respectivos titulares.
+
+7. Ausência de garantias e responsabilidade
+
+O software é fornecido no estado em que se encontra, sem garantias expressas
+ou implícitas, na extensão permitida pela legislação aplicável. O usuário é
+responsável por avaliar a adequação do programa, revisar os dados importados e
+manter suas cópias de segurança. Na extensão permitida por lei, os titulares
+não respondem por danos decorrentes do uso ou impossibilidade de uso.
+Direitos e responsabilidades que a lei não permita excluir são preservados.
+
+8. Descumprimento
+
+O descumprimento destas condições encerra a autorização concedida por esta
+licença, sem prejuízo das demais medidas cabíveis. Permissões adicionais devem
+ser obtidas diretamente com o titular responsável pelo Aether.
+
+Esta é uma licença personalizada de uso pessoal, e não uma licença de código
+aberto aprovada pela OSI. Uso pessoal autorizado; uso empresarial requer acordo.

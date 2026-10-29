@@ -1,0 +1,37 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "bundle": {
+    "active": true,
+    "targets": [
+      "nsis"
+    ],
+    "publisher": "LuizGabe",
+    "shortDescription": "Finanças pessoais, organizadas no seu computador.",
+    "license": "LicenseRef-Aether-Personal-Use-1.0",
+    "licenseFile": "../../../LICENSE",
+    "resources": {
+      "resources/aether-api.jar": "resources/aether-api.jar",
+      "resources/runtime/": "resources/runtime/",
+      "../../../LICENSE": "LICENSE",
+      "../../../THIRD_PARTY_NOTICES.md": "THIRD_PARTY_NOTICES.md",
+      "../../../licenses/": "licenses/",
+      "resources/third-party-licenses/": "third-party-licenses/"
+    },
+    "windows": {
+      "webviewInstallMode": {
+        "type": "offlineInstaller",
+        "silent": true
+      },
+      "minimumWebview2Version": "120.0.2210.91",
+      "nsis": {
+        "installMode": "currentUser",
+        "languages": [
+          "PortugueseBR",
+          "English"
+        ],
+        "displayLanguageSelector": true,
+        "startMenuFolder": "Aether"
+      }
+    }
+  }
+}

@@ -4,6 +4,12 @@ Atualizado em 29/10/2026. Este documento não contém senhas, Client ID, Client 
 
 ## 1. Escolher o ambiente correto
 
+**Instalação normal:** baixe o instalador Windows x64 na [última release](https://github.com/LuizGabe/Aether-finance-tracker/releases/latest), instale e abra pelo menu Iniciar. O Java e o instalador offline do WebView2 já estão incluídos. Os dados ficam em `%USERPROFILE%\Aether\data\aether.db`.
+
+### Ambientes locais do mantenedor
+
+Os caminhos abaixo são exemplos do desenvolvimento deste projeto; os laboratórios não acompanham o instalador.
+
 **Seu aplicativo habitual:** `C:\Dev\Aether\dist\Aether\Aether.exe`. O atalho da barra de tarefas continua apontando para ele. Os dados ficam em `%USERPROFILE%\Aether\data\aether.db` e o cofre usa o serviço `Aether Pluggy`.
 
 **Laboratório de primeiro acesso:** abra `dist\Laboratorio-Aether\Abrir-primeiro-acesso.cmd` dentro do projeto. Usa a pasta `.tools\first-run-lab\zero`, a porta 38482, seu próprio armazenamento do WebView e um serviço separado no cofre. A faixa amarela e o título “Teste isolado” identificam a janela.
@@ -16,13 +22,14 @@ Os arquivos de dados e de backup do laboratório contêm dados financeiros se um
 
 ## 2. Preparar um computador novo
 
-1. Copie a pasta completa do aplicativo, contendo `Aether.exe` e `resources\aether-api.jar`. Mantenha esses dois itens juntos.
-2. Tenha um Java compatível com a aplicação (Java 21 ou mais recente; o computador de desenvolvimento usa Java 26). Para instalar Java 21 LTS, escolha Windows x64 em [Eclipse Temurin](https://adoptium.net/temurin/releases/), habilite o Java no PATH e confirme `java -version` num terminal novo.
-3. Tenha o [Microsoft Edge WebView2 Runtime](https://developer.microsoft.com/en-us/microsoft-edge/webview2/). Se faltar, instale o Evergreen Runtime correspondente à arquitetura do Windows.
-4. Abra `Aether.exe`. Depois de preparar o serviço local, uma instalação sem dados mostra “Seu espaço financeiro começa aqui”.
-5. Escolha configurar conexões ou restaurar um backup. A restauração não exige internet nem credenciais.
+1. Abra a [última release](https://github.com/LuizGabe/Aether-finance-tracker/releases/latest) e baixe `Aether-v0.2.0-windows-x64-setup.exe`. Os arquivos “Source code” são destinados ao desenvolvimento.
+2. Execute o instalador e escolha o idioma. O programa é instalado para o usuário atual, com Java 21 incluído e WebView2 preparado automaticamente.
+3. Abra **Aether** no menu Iniciar. Depois de preparar o serviço local, uma instalação sem dados mostra “Seu espaço financeiro começa aqui”.
+4. Escolha configurar conexões ou restaurar um backup. A restauração não exige internet nem credenciais.
 
-Nesta versão o Java ainda não vem empacotado. Também não há login próprio do Aether: a conexão bancária exige configurar uma aplicação Pluggy. A execução normal usa a porta local 38472 e aceita conexões apenas de `127.0.0.1`.
+Não há login próprio do Aether: a conexão bancária exige configurar uma aplicação Pluggy. A execução normal usa a porta local 38472 e aceita conexões apenas de `127.0.0.1`.
+
+**Somente para builds locais portáteis:** a saída de `pnpm build:app` exige copiar `Aether.exe` junto de `resources\aether-api.jar`, além de ter Java 21+ no PATH e WebView2 no computador. Para distribuir a alguém, prefira o instalador completo gerado por `pnpm build:release`.
 
 ## 3. Configurar a integração Pluggy
 

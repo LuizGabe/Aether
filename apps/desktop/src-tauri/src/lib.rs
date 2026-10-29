@@ -135,7 +135,7 @@ fn start_backend(app: &tauri::AppHandle) -> Result<(), String> {
     let credentials = read_pluggy_credentials(app).ok();
 
     let child = if jar_path.exists() {
-        let mut command = Command::new("java");
+        let mut command = Command::new(resolve_java_command(&jar_path));
         command
             .arg("-XX:TieredStopAtLevel=1")
             .arg("-jar")
@@ -165,6 +165,15 @@ fn start_backend(app: &tauri::AppHandle) -> Result<(), String> {
 
     *process = Some(child);
     Ok(())
+}
+
+fn resolve_java_command(jar_path: &Path) -> PathBuf {
+    // Installed releases carry their own runtime; development can use JAVA on PATH.
+    if let Some(directory) = jar_path.parent() {
+        let bundled = directory.join("runtime").join("bin").join(if cfg!(windows) { "java.exe" } else { "java" });
+        if bundled.is_file() { return bundled; }
+    }
+    PathBuf::from("java")
 }
 
 fn hide_backend_console(command: &mut Command) {
@@ -246,7 +255,7 @@ fn resolve_backend_jar(app: &tauri::AppHandle, api_dir: &Path) -> PathBuf {
         return dev_resource_jar;
     }
 
-    api_dir.join("target").join("aether-api-0.0.1-SNAPSHOT.jar")
+    api_dir.join("target").join("aether-api.jar")
 }
 
 fn resolve_backend_work_dir() -> Result<PathBuf, String> {

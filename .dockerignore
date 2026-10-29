@@ -60,3 +60,7 @@ data
 **/*.p12
 **/*.pfx
 **/*.keystore
+
+# Generated redistributable Java runtime
+apps/desktop/src-tauri/resources/runtime/
+apps/desktop/src-tauri/resources/third-party-licenses/

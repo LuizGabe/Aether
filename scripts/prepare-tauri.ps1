@@ -4,7 +4,7 @@ $repoRoot = Resolve-Path (Join-Path $PSScriptRoot "..")
 $apiDir = Join-Path $repoRoot "apps\api"
 $desktopDir = Join-Path $repoRoot "apps\desktop"
 $resourcesDir = Join-Path $desktopDir "src-tauri\resources"
-$apiJar = Join-Path $apiDir "target\aether-api-0.0.1-SNAPSHOT.jar"
+$apiJar = Join-Path $apiDir "target\aether-api.jar"
 $bundledJar = Join-Path $resourcesDir "aether-api.jar"
 
 Push-Location $apiDir

@@ -8,7 +8,9 @@
     "dev:desktop": "pnpm --filter desktop tauri:dev",
     "build": "pnpm --filter api build && pnpm --filter desktop build",
     "test": "pnpm --filter api test && pnpm --filter desktop test",
-    "build:app": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/build-local.ps1"
+    "build:app": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/build-local.ps1",
+    "build:release": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/build-release.ps1"
   },
-  "packageManager": "pnpm@10.0.0"
+  "packageManager": "pnpm@10.0.0",
+  "license": "LicenseRef-Aether-Personal-Use-1.0"
 }
