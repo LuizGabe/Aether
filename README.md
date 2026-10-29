@@ -1,3 +1,5 @@
+[![Aviso aos usuários: o Aether não oferece aconselhamento financeiro. Confira os dados e mantenha backups. Leia o aviso completo.](docs/images/aether-disclaimer.svg)](#aviso-de-isenção-de-responsabilidade-para-usuários)
+
 <div align="center">
 
 ![Aether — seu dinheiro, em perspectiva](docs/images/aether-hero.svg)
@@ -79,6 +81,17 @@ A restauração valida a integridade do arquivo antes de substituir os dados. Um
 | Dados de desenvolvimento isolado | Pasta e porta explicitamente escolhidas para cada perfil |
 
 O instalador distribui somente o programa, o runtime e os avisos legais. Não leva dados de usuários, contas, credenciais, capturas ou backups do desenvolvimento. Atualizar a instalação preserva a pasta de dados do usuário.
+
+## Aviso de isenção de responsabilidade para usuários
+
+<details>
+<summary>Ler o aviso completo em texto</summary>
+
+O Aether é uma ferramenta de organização e consulta de informações financeiras. Seu conteúdo não constitui aconselhamento financeiro, de investimentos, contábil ou tributário. Confira saldos, transações e demais informações diretamente nas instituições responsáveis antes de tomar decisões, pois os dados exibidos podem conter erros, omissões ou atrasos de atualização.
+
+O aplicativo é fornecido “como está”, sem garantia de funcionamento ininterrupto, ausência de falhas ou exatidão das informações. Ao utilizá-lo, você assume a responsabilidade por suas decisões, pela proteção de suas credenciais e pela manutenção de cópias de segurança dos seus dados. Na medida permitida pela legislação aplicável, o autor e os colaboradores não se responsabilizam por perdas financeiras, perda de dados ou outros danos decorrentes do uso ou da impossibilidade de uso do aplicativo. Este aviso se destina a quem utiliza o Aether e não limita direitos que não possam ser excluídos por lei.
+
+</details>
 
 ## Desenvolvimento
 

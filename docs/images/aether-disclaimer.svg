@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="140" viewBox="0 0 1120 140" role="img" aria-labelledby="title description">
+  <title id="title">Aviso de responsabilidade para usuários do Aether</title>
+  <desc id="description">O Aether não oferece aconselhamento financeiro. Confira os dados, proteja suas credenciais e mantenha backups. Fornecido como está, com responsabilidade limitada conforme a lei. Consulte o aviso completo no README.</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFFBEA"/>
+      <stop offset="1" stop-color="#FFF0BA"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F8D770"/>
+      <stop offset="1" stop-color="#E9B83D"/>
+    </linearGradient>
+  </defs>
+  <style>text { font-family: 'Segoe UI', Arial, sans-serif; }</style>
+  <rect x="1" y="1" width="1118" height="138" rx="16" fill="url(#paper)" stroke="#DFC47B"/>
+  <rect x="1" y="26" width="3" height="88" rx="1.5" fill="#D6A632"/>
+  <rect x="24" y="42" width="56" height="56" rx="16" fill="url(#gold)"/>
+  <path d="M49 54a3.5 3.5 0 0 1 6 0l15 26a3.5 3.5 0 0 1-3 5H37a3.5 3.5 0 0 1-3-5Z" fill="none" stroke="#584015" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M52 64v9" stroke="#584015" stroke-width="2.6" stroke-linecap="round"/>
+  <circle cx="52" cy="79" r="1.6" fill="#584015"/>
+  <text x="104" y="38" font-size="12" font-weight="700" letter-spacing="2" fill="#856117">AVISO DE RESPONSABILIDADE</text>
+  <text x="104" y="68" font-size="22" font-weight="700" letter-spacing="-.3" fill="#493615">O Aether organiza suas finanças. As decisões são suas.</text>
+  <text x="104" y="94" font-size="16" fill="#6B5427">Não constitui aconselhamento financeiro. Confira os dados, proteja suas credenciais e mantenha backups.</text>
+  <text x="104" y="117" font-size="15" fill="#705A2D">Fornecido “como está”, com responsabilidade limitada conforme a lei. Leia o aviso completo abaixo.</text>
+  <rect x="930" y="21" width="166" height="25" rx="12.5" fill="#F5E3A9" stroke="#E5CF89"/>
+  <text x="1013" y="38" text-anchor="middle" font-size="11" font-weight="600" letter-spacing="1" fill="#785B21">PARA QUEM USA</text>
+</svg>
