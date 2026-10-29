@@ -1,0 +1,9 @@
+{
+  "name": "api",
+  "private": true,
+  "scripts": {
+    "dev": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File ..\\..\\scripts\\mvn.ps1 spring-boot:run",
+    "build": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File ..\\..\\scripts\\mvn.ps1 package",
+    "test": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File ..\\..\\scripts\\mvn.ps1 test"
+  }
+}

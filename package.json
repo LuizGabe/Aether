@@ -1,0 +1,14 @@
+{
+  "name": "aether",
+  "private": true,
+  "version": "0.2.0",
+  "scripts": {
+    "dev": "pnpm --filter desktop tauri:dev",
+    "dev:api": "pnpm --filter api dev",
+    "dev:desktop": "pnpm --filter desktop tauri:dev",
+    "build": "pnpm --filter api build && pnpm --filter desktop build",
+    "test": "pnpm --filter api test && pnpm --filter desktop test",
+    "build:app": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/build-local.ps1"
+  },
+  "packageManager": "pnpm@10.0.0"
+}

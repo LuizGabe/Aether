@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:sqlite:file:aether-test?mode=memory&cache=shared
+    driver-class-name: org.sqlite.JDBC
+  jpa:
+    hibernate:
+      ddl-auto: none
+    open-in-view: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.community.dialect.SQLiteDialect
+  flyway:
+    enabled: true

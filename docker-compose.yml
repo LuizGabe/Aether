@@ -17,29 +17,26 @@ services:
       retries: 5
 
   app:
-    image: maven:3.9.9-eclipse-temurin-21
+    build:
+      context: .
+      dockerfile: Dockerfile
     container_name: aether-app
-    working_dir: /workspace
-    # Adicionamos -Dspring-boot.run.fork=false e acionamos o compilador continuo
-    command: mvn spring-boot:run -Dspring-boot.run.fork=false
     environment:
       DB_URL: jdbc:postgresql://postgres:5432/aether
       DB_USERNAME: postgres
       DB_PASSWORD: postgres
       SPRING_PROFILES_ACTIVE: dev
-      # Força o DevTools a monitorar mudanças de arquivo dentro do container
-      SPRING_DEVTOOLS_RESTART_ENABLED: "true"
-      SPRING_DEVTOOLS_POLL_INTERVAL: "2s"
-      SPRING_DEVTOOLS_QUIET_PERIOD: "1s"
     ports:
       - "8080:8080"
-    volumes:
-      - ./:/workspace
-      - maven_cache:/root/.m2
     depends_on:
       postgres:
         condition: service_healthy
+    develop:
+      watch:
+        - action: rebuild
+          path: ./src
+        - action: rebuild
+          path: ./pom.xml
 
 volumes:
   postgres_data:
-  maven_cache:

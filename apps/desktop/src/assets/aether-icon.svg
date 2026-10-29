@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="656" viewBox="0 0 180 164" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Financeiro — B1.1</title>
+  <desc id="desc">Carteira verde com corpo escuro, painel traseiro em verde claro, aba frontal arredondada e botão branco. Reconstrução vetorial editável do conceito B1.1, com fundo transparente.</desc>
+  <defs>
+    <linearGradient id="rear" x1="69" y1="12" x2="145" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B1D8C7"/>
+      <stop offset=".5" stop-color="#A8D2C0"/>
+      <stop offset="1" stop-color="#83BBA4"/>
+    </linearGradient>
+    <linearGradient id="body" x1="29" y1="37" x2="137" y2="150" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#377F6B"/>
+      <stop offset=".53" stop-color="#22634F"/>
+      <stop offset="1" stop-color="#154C3C"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="70" y1="74" x2="162" y2="50" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C3E7D7"/>
+      <stop offset="1" stop-color="#DBF0E7"/>
+    </linearGradient>
+    <linearGradient id="flap" x1="71" y1="79" x2="158" y2="135" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#78B39B"/>
+      <stop offset=".5" stop-color="#62A68C"/>
+      <stop offset="1" stop-color="#438F72"/>
+    </linearGradient>
+  </defs>
+  <g id="carteira">
+    <path id="painel-traseiro" fill="url(#rear)" d="M36 27L120 7C138.5 2.4 155 14 155 32V46L36 38Z"/>
+    <path id="corpo" fill="url(#body)" d="M36 27L155 46L161 125V133C161 145.5 151 154 137 154H37C19 154 8 144 8 127V56C8 40 20 27 36 27Z"/>
+    <path id="borda-interna" fill="url(#rim)" d="M58 89C58 76.5 64 69.5 79 65.5L155 46C158.5 46.7 161 48.5 162.5 52.5L82 76C68 79 61 83 58 89Z"/>
+    <path id="aba-frontal" fill="url(#flap)" d="M58 89C58 79 66.5 75.5 80 72L150 54C163.5 50.3 174 57.6 174 70V111C174 122 168.5 129 159 132L84 149C68 153 58 146.5 58 131Z"/>
+    <circle id="botao" cx="145.5" cy="100.5" r="9.6" fill="#FFFFFF"/>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+spring:
+  servlet:
+    multipart:
+      max-file-size: 101MB
+      max-request-size: 102MB
+  datasource:
+    url: ${AETHER_DB_URL:jdbc:sqlite:aether-dev.db}
+    driver-class-name: org.sqlite.JDBC
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    open-in-view: false
+    show-sql: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.community.dialect.SQLiteDialect
+        format_sql: true
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+
+server:
+  address: ${AETHER_API_HOST:127.0.0.1}
+  port: ${AETHER_API_PORT:38472}
+
+management:
+  endpoints:
+    enabled-by-default: false
