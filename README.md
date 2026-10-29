@@ -1,111 +1,128 @@
-[![Aviso aos usuários: o Aether não oferece aconselhamento financeiro. Confira os dados e mantenha backups. Leia o aviso completo.](docs/images/aether-disclaimer.svg)](#aviso-de-isenção-de-responsabilidade-para-usuários)
+<div align="right">
 
-<div align="center">
-
-![Aether — seu dinheiro, em perspectiva](docs/images/aether-hero.svg)
-
-[![Windows x64](https://img.shields.io/badge/Windows-x64-214f3e?style=flat-square)](https://github.com/LuizGabe/Aether-finance-tracker/releases/latest)
-[![Versão 0.2.0](https://img.shields.io/badge/vers%C3%A3o-0.2.0-78945f?style=flat-square)](https://github.com/LuizGabe/Aether-finance-tracker/releases)
-[![Uso pessoal](https://img.shields.io/badge/licen%C3%A7a-uso_pessoal-d4dfb8?style=flat-square)](LICENSE)
-
-**Contas, cartões e investimentos. Uma visão clara das suas finanças, no seu computador.**
-
-[Baixar o aplicativo](https://github.com/LuizGabe/Aether-finance-tracker/releases/latest) · [Primeiros passos](docs/tutorial-primeiro-acesso.md) · [Como compilar](#desenvolvimento) · [Licença](LICENSE)
+**English** · [Português (Brasil)](README.pt-BR.md)
 
 </div>
 
-## Clareza para o dia a dia
+<a href="#user-disclaimer">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/images/aether-disclaimer.en.dark.svg">
+    <img src="docs/images/aether-disclaimer.en.light.svg" alt="User disclaimer: Aether does not provide financial advice. Verify your data and keep backups. Read the full notice." width="1120">
+  </picture>
+</a>
 
-O Aether reúne seu histórico financeiro em um aplicativo desktop para Windows. Contas correntes, crédito e investimentos têm seu próprio lugar, para que saldos, limites e gastos façam sentido na mesma análise.
+<div align="center">
 
-Os dados importados ficam em um SQLite local. Você pode consultar o histórico offline, revisar a identificação das transações e organizar categorias, regras e recorrências sem depender de uma aba aberta no navegador.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/images/aether-hero.en.dark.svg">
+  <img src="docs/images/aether-hero.en.light.svg" alt="Aether — your money, in perspective. Bank connections, local history and encrypted backups." width="1120">
+</picture>
 
-![Visão geral ilustrativa do Aether, com dados fictícios](docs/images/aether-overview.svg)
+[![Windows x64](https://img.shields.io/badge/Windows-x64-214f3e?style=flat-square)](https://github.com/LuizGabe/Aether/releases/latest)
+[![Version 0.2.0](https://img.shields.io/badge/version-0.2.0-78945f?style=flat-square)](https://github.com/LuizGabe/Aether/releases)
+[![Personal use](https://img.shields.io/badge/license-personal_use-d4dfb8?style=flat-square)](LICENSE)
 
-<sub>Ilustração da interface. Todos os valores são fictícios; nenhum dado bancário real foi utilizado nas imagens deste README.</sub>
+**Accounts, cards and investments. A clearer view of your finances, on your own computer.**
 
-## O que você encontra
+[Download](https://github.com/LuizGabe/Aether/releases/latest) · [Getting started](#download-and-get-started) · [Development](#development) · [License](LICENSE)
 
-| Área | Para que serve |
+</div>
+
+## Clarity for everyday finances
+
+Aether brings your financial history together in a Windows desktop app. Current accounts, credit cards and investments each have their own place, so balances, limits and spending make sense in the same view.
+
+Imported data stays in a local SQLite database. Browse your history offline, review transaction details and organize categories, rules and recurring payments without keeping a browser tab open. Connecting and syncing institutions requires internet access and Pluggy.
+
+![Illustrative Aether overview with fictional data; the application interface is shown in Portuguese](docs/images/aether-overview.svg)
+
+<sub>Interface illustration in Portuguese. All amounts are fictional; no real banking data was used in this README.</sub>
+
+## What you can do
+
+| Area | What it helps you do |
 |---|---|
-| **Visão geral** | Acompanhar saldos, receitas, gastos e instituições em um só lugar. |
-| **Contas** | Entender o dinheiro disponível e consultar o fluxo de caixa. |
-| **Cartões** | Separar limite utilizado, faturas, compras e conta de pagamento. |
-| **Investimentos** | Consultar posições e movimentos conforme disponibilizados pela instituição. |
-| **Transações** | Buscar, filtrar, exportar e revisar identificação, categoria e tipo de movimento. |
-| **Momento do dia** | Visualizar horários disponíveis com marcadores de sol e lua. |
-| **Recorrências** | Reconhecer padrões e adicionar nomes e imagens que façam sentido para você. |
-| **Configurações** | Gerenciar conexões, produtos, categorias, regras, backups e preferências. |
+| **Overview** | Track balances, income, spending and institutions in one place. |
+| **Accounts** | Understand available funds and review cash flow. |
+| **Cards** | Separate used credit, statements, purchases and payment accounts. |
+| **Investments** | Review holdings and activity as provided by your institution. |
+| **Transactions** | Search, filter, export and review descriptions, categories and movement types. |
+| **Time of day** | See available transaction times with sun and moon markers. |
+| **Recurring activity** | Recognize patterns and add meaningful names and images. |
+| **Settings** | Manage connections, products, categories, rules, backups and preferences. |
 
-Os resultados dependem da cobertura e atualização da instituição. Campos ausentes são identificados; o aplicativo não inventa estabelecimentos, horários ou posições financeiras.
+Results depend on the institution's coverage and update frequency. Missing fields are identified; Aether does not invent merchants, timestamps or investment holdings.
 
-## Baixar e começar
+## Download and get started
 
-1. Acesse a [última release](https://github.com/LuizGabe/Aether-finance-tracker/releases/latest).
-2. Baixe **`Aether-v0.2.0-windows-x64-setup.exe`** e execute o instalador.
-3. Abra o Aether pelo menu Iniciar. Se desejar, fixe o ícone na barra de tarefas.
-4. Escolha configurar suas conexões ou restaurar um backup existente.
+1. Open the [latest release](https://github.com/LuizGabe/Aether/releases/latest).
+2. Download **`Aether-v0.2.0-windows-x64-setup.exe`** and run the installer.
+3. Open Aether from the Start menu. Pin it to the taskbar if you like.
+4. Set up your connections or restore an existing backup.
 
-**O instalador inclui Java 21 e o instalador offline do Microsoft WebView2.** Não é necessário instalar Java, Node.js, Maven ou Rust para usar o aplicativo.
+**The installer includes Java 21 and the offline Microsoft WebView2 installer.** You do not need to install Java, Node.js, Maven or Rust to use the app.
 
-A configuração dos bancos exige internet, uma aplicação Pluggy e a autorização do titular no fluxo oficial do banco/Meu Pluggy. As credenciais são informadas no próprio aplicativo e guardadas no cofre do Windows. Elas não vêm no download e não são incluídas nos backups.
+Bank setup requires internet access, a Pluggy application and the account holder's authorization through the official bank/Meu Pluggy flow. Enter credentials in the app; they are stored in Windows Credential Manager. They are not bundled with the download or included in backups.
 
-> Os arquivos automáticos **Source code (zip/tar.gz)** do GitHub são o código-fonte. Para instalar, escolha o arquivo **`-setup.exe`**. O acesso ao download segue as permissões deste repositório, inclusive quando ele estiver privado.
+> GitHub's automatic **Source code (zip/tar.gz)** archives contain the source code. To install the app, choose the **`-setup.exe`** file. Download access follows the repository's permissions, including when it is private.
 
-O instalador desta versão não possui certificado de assinatura de código. Veja as notas da release e confira o `SHA256SUMS.txt` antes de instalar.
+This version's installer does not have a code-signing certificate. Read the release notes and verify `SHA256SUMS.txt` before installing.
 
-[Leia o tutorial completo de configuração →](docs/tutorial-primeiro-acesso.md)
+[Full setup tutorial — Portuguese →](docs/tutorial-primeiro-acesso.md)
 
-## Seu histórico, protegido e portátil
+## Your history, protected and portable
 
-![Fluxo ilustrado de backup criptografado entre instalações](docs/images/aether-backup.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/images/aether-backup.en.dark.svg">
+  <img src="docs/images/aether-backup.en.light.svg" alt="Backup flow: local history to a password-protected .aetherbackup file, then restoration on another installation. Credentials stay out of the file." width="1120">
+</picture>
 
-Em **Configurações → Dados e backup**, você pode exportar o histórico em um arquivo **`.aetherbackup` protegido por senha com AES-256-GCM**. A senha é utilizada pelo aplicativo local e não é salva ou enviada à Pluggy.
+Under **Settings → Data and backup** (*Configurações → Dados e backup*), export your history as a **password-protected `.aetherbackup` file using AES-256-GCM**. The local app uses the password; it is not saved or sent to Pluggy.
 
-A restauração valida a integridade do arquivo antes de substituir os dados. Uma cópia automática, também criptografada, é criada antes de restaurar ou voltar ao primeiro acesso.
+Restoration checks file integrity before replacing data. An automatic encrypted copy is also created before restoring or returning to first-time setup.
 
-- Guarde a senha: o Aether não possui recuperação nem chave mestra.
-- Backups SQLite antigos continuam importáveis, mas não são criptografados retroativamente.
-- O arquivo leva histórico e preferências; credenciais e sessões de autenticação permanecem fora dele.
-- A proteção dos backups é separada do banco SQLite ativo, que permanece local.
+- Keep your password safe: Aether has no password recovery or master key.
+- Older SQLite backups can still be imported; they are not encrypted retroactively.
+- The file contains history and preferences; credentials and authentication sessions stay out.
+- Backup encryption is separate from the active local SQLite database.
 
-[Conheça o formato e seus limites →](docs/formato-backup-criptografado.md)
+[Backup format and limitations — Portuguese →](docs/formato-backup-criptografado.md)
 
-## Privacidade e armazenamento
+## Privacy and storage
 
-| Informação | Onde fica |
+| Information | Where it lives |
 |---|---|
-| Histórico e preferências | `%USERPROFILE%\Aether\data\aether.db` |
-| Credenciais Pluggy no desktop | Cofre de credenciais do Windows |
-| Cópias automáticas | Subpasta `backups` do perfil, em formato criptografado |
-| Dados de desenvolvimento isolado | Pasta e porta explicitamente escolhidas para cada perfil |
+| History and preferences | `%USERPROFILE%\Aether\data\aether.db` |
+| Desktop Pluggy credentials | Windows Credential Manager |
+| Automatic copies | The profile's `backups` subfolder, in encrypted form |
+| Isolated development data | A folder and port explicitly selected for each profile |
 
-O instalador distribui somente o programa, o runtime e os avisos legais. Não leva dados de usuários, contas, credenciais, capturas ou backups do desenvolvimento. Atualizar a instalação preserva a pasta de dados do usuário.
+The installer only distributes the program, runtime and legal notices. It does not include development user data, accounts, credentials, screenshots or backups. Updating the installation preserves your data folder.
 
-## Aviso de isenção de responsabilidade para usuários
+## User disclaimer
 
 <details>
-<summary>Ler o aviso completo em texto</summary>
+<summary>Read the full disclaimer</summary>
 
-O Aether é uma ferramenta de organização e consulta de informações financeiras. Seu conteúdo não constitui aconselhamento financeiro, de investimentos, contábil ou tributário. Confira saldos, transações e demais informações diretamente nas instituições responsáveis antes de tomar decisões, pois os dados exibidos podem conter erros, omissões ou atrasos de atualização.
+Aether is a tool for organizing and viewing financial information. Its content does not constitute financial, investment, accounting or tax advice. Verify balances, transactions and other information directly with the responsible institutions before making decisions: displayed data may contain errors, omissions or update delays.
 
-O aplicativo é fornecido “como está”, sem garantia de funcionamento ininterrupto, ausência de falhas ou exatidão das informações. Ao utilizá-lo, você assume a responsabilidade por suas decisões, pela proteção de suas credenciais e pela manutenção de cópias de segurança dos seus dados. Na medida permitida pela legislação aplicável, o autor e os colaboradores não se responsabilizam por perdas financeiras, perda de dados ou outros danos decorrentes do uso ou da impossibilidade de uso do aplicativo. Este aviso se destina a quem utiliza o Aether e não limita direitos que não possam ser excluídos por lei.
+The app is provided “as is”, without guarantees of uninterrupted operation, freedom from defects or information accuracy. By using it, you take responsibility for your decisions, protecting your credentials and keeping backups of your data. To the extent permitted by applicable law, the author and contributors are not liable for financial losses, data loss or other damages arising from use of, or inability to use, the app. This notice is intended for Aether users and does not limit rights that cannot legally be excluded.
 
 </details>
 
-## Desenvolvimento
+## Development
 
-O projeto é um workspace com **React + TypeScript + Tauri 2** no desktop e **Java 21 + Spring Boot + SQLite** no serviço local.
+The workspace uses **React + TypeScript + Tauri 2** for the desktop and **Java 21 + Spring Boot + SQLite** for the local service.
 
 ```text
 apps/
-  api/                 Serviço local e migrações
-  desktop/             Interface React e shell Tauri
-scripts/               Build, empacotamento e perfis isolados
-docs/                  Guias, decisões e notas de versão
+  api/                 Local service and migrations
+  desktop/             React interface and Tauri shell
+scripts/               Build, packaging and isolated profiles
+docs/                  Guides, decisions and release notes
 ```
 
-Para desenvolver no Windows, instale **Node.js 24**, **pnpm 10**, **JDK 21**, **Maven 3.9+**, **Rust estável MSVC** e os [pré-requisitos do Tauri](https://v2.tauri.app/start/prerequisites/).
+For Windows development, install **Node.js 24**, **pnpm 10**, **JDK 21**, **Maven 3.9+**, **stable Rust MSVC** and the [Tauri prerequisites](https://v2.tauri.app/start/prerequisites/).
 
 ```powershell
 corepack enable
@@ -113,56 +130,66 @@ pnpm install --frozen-lockfile
 pnpm dev
 ```
 
-A primeira compilação pode precisar de internet para baixar dependências. As credenciais continuam sendo configuradas em tempo de execução; não crie arquivos com segredos para acompanhar o código.
+The first build may need internet access to download dependencies. Credentials are configured at runtime; do not add files containing secrets to the source tree.
 
-| Comando | Resultado |
+| Command | Result |
 |---|---|
-| `pnpm dev` | Desktop em desenvolvimento. |
-| `pnpm dev:api` | Serviço local pelo Maven. |
-| `pnpm build` | Backend e frontend compilados. |
-| `pnpm build:app` | Executável local em `dist/Aether`, usando o Java do computador. |
-| `pnpm build:release` | Instalador completo, Java incluído, em `dist/releases/0.2.0`. |
+| `pnpm dev` | Desktop in development mode. |
+| `pnpm dev:api` | Local service through Maven. |
+| `pnpm build` | Compiled backend and frontend. |
+| `pnpm build:app` | Local executable in `dist/Aether`, using the computer's Java runtime. |
+| `pnpm build:release` | Complete installer with Java in `dist/releases/0.2.0`. |
 
-O build de release obtém um runtime Eclipse Temurin 21 oficial, verifica seu checksum e preserva suas licenças. Reúne também os avisos das dependências, gera o instalador NSIS e cria os checksums dos arquivos distribuídos.
+The release build downloads an official Eclipse Temurin 21 runtime, verifies its checksum and preserves its licenses. It also gathers dependency notices, generates the NSIS installer and creates checksums for distributed files.
 
-### Perfis isolados
+### Isolated profiles
 
-O desktop aceita um par explícito de argumentos para manter dados, backend, WebView e cofre separados:
+The desktop accepts an explicit pair of arguments to keep data, backend, WebView and credential storage separate:
 
 ```powershell
-Aether.exe --data-dir "C:\AetherSandbox\perfil" --api-port 38482
+Aether.exe --data-dir "C:\AetherSandbox\profile" --api-port 38482
 ```
 
-As duas opções devem ser usadas juntas. A porta de teste não pode ser a porta principal, `38472`, e a pasta deve ser diferente da pasta normal de dados. A janela apresenta uma faixa de identificação do perfil isolado.
+Use both options together. The test port must differ from the main port, `38472`, and the folder must differ from the regular data folder. The window displays an isolated-profile banner.
+
+### README visuals
+
+The README defaults to English, with a [Brazilian Portuguese version](README.pt-BR.md). Hero, disclaimer and backup SVGs have matching light and dark variants. To regenerate all 12 assets after editing their text or layout:
+
+```powershell
+python scripts/generate-readme-assets.py
+```
+
+The generator uses only Python's standard library and preserves the original wallet mark. Flow arrows loop gently; reduced-motion preferences disable the animation. The product interface illustration remains in Portuguese, and detailed guides linked above are labeled with their language.
 
 ## Releases
 
-O workflow [Build](.github/workflows/development.yml) compila API e interface em pushes e pull requests. O workflow [Release](.github/workflows/deploy.yml) monta o instalador no Windows e publica uma **release estável normal**, com instalador, checksums, manifesto do build, guia rápido e licença.
+The [Build](.github/workflows/development.yml) workflow compiles the API and interface on pushes and pull requests. The [Release](.github/workflows/deploy.yml) workflow builds the Windows installer and publishes a **regular stable release** with the installer, checksums, build manifest, quick-start guide and license.
 
-Para uma próxima versão:
+For the next version:
 
-1. Sincronize a versão em `package.json`, `apps/desktop/package.json`, `apps/api/pom.xml`, `Cargo.toml` e `tauri.conf.json`.
-2. Atualize as notas em `docs/releases/X.Y.Z.md` e faça um commit semântico.
-3. Crie e envie uma tag estável `vX.Y.Z`. O fluxo também pode ser iniciado manualmente pelo GitHub Actions.
+1. Keep the version in sync across `package.json`, `apps/desktop/package.json`, `apps/api/pom.xml`, `apps/desktop/src-tauri/Cargo.toml` and `apps/desktop/src-tauri/tauri.conf.json`.
+2. Update `docs/releases/X.Y.Z.md` and create a semantic commit.
+3. Create and push a stable `vX.Y.Z` tag. The workflow can also be started manually through GitHub Actions.
 
 ```powershell
-git tag v0.2.0
+git tag vX.Y.Z
 git push origin dev
-git push origin v0.2.0
+git push origin vX.Y.Z
 ```
 
-A publicação só acontece após o build e a conferência dos checksums. Os workflows desta entrega validam compilação e empacotamento; não executam uma bateria de testes nem instalam o aplicativo automaticamente. Atualizações automáticas dentro do app ainda não estão disponíveis.
+Publication happens after the build and checksum verification. These workflows validate compilation and packaging; they do not run a test suite or automatically install the app. In-app automatic updates are not yet available.
 
-[Detalhes do processo de publicação →](docs/releases/README.md)
+[Release process details — Portuguese →](docs/releases/README.md)
 
-## Licença e propriedade intelectual
+## License and intellectual property
 
-**O uso pessoal, privado e não comercial está liberado. Uso empresarial, profissional ou em nome de uma organização exige autorização específica por escrito.**
+**Personal, private, non-commercial use is permitted. Business, professional or organizational use requires specific written authorization.**
 
-O código disponibilizado não transfere a propriedade intelectual do Aether e não autoriza sua revenda, sublicenciamento ou exploração comercial. Esta é uma licença personalizada de uso pessoal; não é uma licença de código aberto aprovada pela OSI.
+Access to the source does not transfer Aether's intellectual property or authorize resale, sublicensing or commercial exploitation. This is a custom personal-use license, not an OSI-approved open-source license.
 
-Consulte a [licença completa](LICENSE). Bibliotecas, runtimes, fontes e marcas de terceiros mantêm seus próprios termos, descritos nos [avisos de terceiros](THIRD_PARTY_NOTICES.md).
+Read the [full license — Portuguese](LICENSE). Third-party libraries, runtimes, fonts and trademarks retain their own terms, described in the [third-party notices](THIRD_PARTY_NOTICES.md).
 
-## Parcerias e próximos capítulos
+## Partnerships and what comes next
 
-O Aether está aberto a conversas sobre parcerias estratégicas, continuidade do produto e novas formas de ampliar seu alcance. Se você enxerga um próximo capítulo para esta tecnologia, os canais do [mantenedor](https://github.com/LuizGabe) estão abertos para uma conversa.
+Aether welcomes conversations about strategic partnerships, product continuity and ways to broaden its reach. If you see a next chapter for this technology, get in touch with the [maintainer](https://github.com/LuizGabe).

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="328" viewBox="0 0 1120 328" role="img" aria-labelledby="title desc" xml:lang="pt-BR"><title id="title">Aether — Seu dinheiro, em perspectiva.</title><desc id="desc">Desktop Windows · SQLite no seu computador · Conexões bancárias via Pluggy</desc><style>text{font-family:"Segoe UI",Arial,sans-serif}.flow{animation:drift 4s linear infinite}@keyframes drift{to{stroke-dashoffset:-40}}@media(prefers-reduced-motion:reduce){.flow{animation:none}}</style><defs><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#2A4032" stroke-width=".6"/></pattern></defs><rect x="1" y="1" width="1118" height="326" rx="20" fill="#14251E" stroke="#466049"/><rect x="1" y="1" width="1118" height="326" rx="20" fill="url(#grid)"/><ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 182 162" role="img" x="32" y="25" width="54" height="48"><ns0:title>Aether</ns0:title><ns0:g>
+
+
+  <ns0:defs>
+    <ns0:linearGradient id="rear" x1="69" y1="12" x2="145" y2="58" gradientUnits="userSpaceOnUse">
+      <ns0:stop stop-color="#B1D8C7" />
+      <ns0:stop offset=".5" stop-color="#A8D2C0" />
+      <ns0:stop offset="1" stop-color="#83BBA4" />
+    </ns0:linearGradient>
+    <ns0:linearGradient id="body" x1="29" y1="37" x2="137" y2="150" gradientUnits="userSpaceOnUse">
+      <ns0:stop stop-color="#377F6B" />
+      <ns0:stop offset=".53" stop-color="#22634F" />
+      <ns0:stop offset="1" stop-color="#154C3C" />
+    </ns0:linearGradient>
+    <ns0:linearGradient id="rim" x1="70" y1="74" x2="162" y2="50" gradientUnits="userSpaceOnUse">
+      <ns0:stop stop-color="#C3E7D7" />
+      <ns0:stop offset="1" stop-color="#DBF0E7" />
+    </ns0:linearGradient>
+    <ns0:linearGradient id="flap" x1="71" y1="79" x2="158" y2="135" gradientUnits="userSpaceOnUse">
+      <ns0:stop stop-color="#78B39B" />
+      <ns0:stop offset=".5" stop-color="#62A68C" />
+      <ns0:stop offset="1" stop-color="#438F72" />
+    </ns0:linearGradient>
+  </ns0:defs>
+  <ns0:g id="carteira">
+    <ns0:path id="painel-traseiro" fill="url(#rear)" d="M36 27L120 7C138.5 2.4 155 14 155 32V46L36 38Z" />
+    <ns0:path id="corpo" fill="url(#body)" d="M36 27L155 46L161 125V133C161 145.5 151 154 137 154H37C19 154 8 144 8 127V56C8 40 20 27 36 27Z" />
+    <ns0:path id="borda-interna" fill="url(#rim)" d="M58 89C58 76.5 64 69.5 79 65.5L155 46C158.5 46.7 161 48.5 162.5 52.5L82 76C68 79 61 83 58 89Z" />
+    <ns0:path id="aba-frontal" fill="url(#flap)" d="M58 89C58 79 66.5 75.5 80 72L150 54C163.5 50.3 174 57.6 174 70V111C174 122 168.5 129 159 132L84 149C68 153 58 146.5 58 131Z" />
+    <ns0:circle id="botao" cx="145.5" cy="100.5" r="9.6" fill="#FFFFFF" />
+  </ns0:g>
+</ns0:g></ns0:svg><text x="98" y="60" font-size="30" fill="#E1ECD7" font-weight="700" letter-spacing="-1">aether</text><text x="34" y="103" font-size="11" fill="#A9BEA1" font-weight="600" letter-spacing="2">FINANÇAS PESSOAIS / NO SEU COMPUTADOR</text><text x="32" y="157" font-size="44" fill="#E1ECD7" font-weight="700" letter-spacing="-1.5">Seu dinheiro,</text><text x="32" y="207" font-size="44" fill="#E1ECD7" font-weight="700" letter-spacing="-1.5">em perspectiva.</text><text x="35" y="245" font-size="18" fill="#A9BEA1" font-weight="400" >Contas, cartões e investimentos.</text><text x="35" y="273" font-size="18" fill="#A9BEA1" font-weight="400" >Histórico local. Mais clareza no dia a dia.</text><text x="610" y="112" font-size="17" fill="#A9BEA1" font-weight="400" transform="rotate(-3 610 112)" font-style="italic">conectar → organizar → guardar</text><rect x="610" y="146" width="134" height="102" rx="14" fill="#1D3328" stroke="#466049"/><g transform="translate(663 164) scale(1.1666666666666667)" fill="none" stroke="#B6D28C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-6 9 6M4 10h16M6 11v7m6-7v7m6-7v7M3 21h18M4 18h16"/></g><text x="677" y="224" font-size="15" fill="#E1ECD7" font-weight="600" text-anchor="middle">Instituições</text><rect x="779" y="146" width="134" height="102" rx="14" fill="#1D3328" stroke="#466049"/><g transform="translate(832 164) scale(1.1666666666666667)" fill="none" stroke="#B6D28C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 4 16 4 16 0V5M4 12c0 4 16 4 16 0"/></g><text x="846" y="224" font-size="15" fill="#E1ECD7" font-weight="600" text-anchor="middle">Histórico local</text><rect x="948" y="146" width="134" height="102" rx="14" fill="#1D3328" stroke="#466049"/><g transform="translate(1001 164) scale(1.1666666666666667)" fill="none" stroke="#B6D28C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="12" rx="3"/><path d="M8 10V6a4 4 0 0 1 8 0v4m-4 5v3"/></g><text x="1015" y="224" font-size="15" fill="#E1ECD7" font-weight="600" text-anchor="middle">Backup</text><path d="M750 195Q761.0 189 772 195" fill="none" stroke="#B6D28C" stroke-width="1.6" stroke-dasharray="4 6" class="flow"/><path d="m766 190 6 5-6 4" fill="none" stroke="#B6D28C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M919 195Q930.0 189 941 195" fill="none" stroke="#B6D28C" stroke-width="1.6" stroke-dasharray="4 6" class="flow"/><path d="m935 190 6 5-6 4" fill="none" stroke="#B6D28C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M615 262q220 10 460-3" fill="none" stroke="#B6D28C" opacity=".5" stroke-linecap="round"/><text x="35" y="309" font-size="13" fill="#A9BEA1" font-weight="400" >Desktop Windows · SQLite no seu computador · Conexões bancárias via Pluggy</text></svg>
